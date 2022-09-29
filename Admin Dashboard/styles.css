@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --font:'Roboto';
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family:var(--font),sans-serif ;
+}
+#container{
+    display:flex;
+}
+
+.left{
+    height: 100vh;
+    width:15%;
+    background-color: #2390cf;
+}
+.left>div{
+    margin-left: 1.5em;
+    color: white;  
+    font-size: .7rem;
+
+}
+
+.title{
+    margin-top: 2em;
+    margin-bottom: 3.5em;
+    padding-left:1.5em;
+    display: flex;
+}
+.logo-img{
+    height:3em;
+}
+h1{
+    padding-top: .5em;
+    margin-left: .2em;
+    font-size: 1.1rem;
+}
+
+
+li{
+    list-style: none;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: .9rem;
+    margin-left: 1.5em;
+}
+img{
+    height: 1.2em;
+}
+.logos{
+    margin-right: 1.2em;
+    position: relative;
+    top:.2em;
+    
+}
+
+.support{
+    margin-top:3.6em;
+}
+
+
+.right{
+    height: 100vh;
+    width:85%;   
+    display:grid;
+    grid-template-rows: .30fr 1fr;
+
+}
+
+.header{
+    display: grid; 
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 6fr 1fr;  
+    height: 3em;
+    
+}
+
+.search{
+    display:flex;
+    margin-left: 5.5em;
+    margin-top: 1em;
+
+}
+#search{
+    background-color: lightgrey;
+    border: none;
+    border-radius: 15px;
+    height: 1.5em;
+    width: 30em;
+}
+
+.info{
+    display: flex;
+    padding-right: 8em;
+    gap:1em;
+    
+}
+
+.noti{
+    margin-top: .8em;
+}
+.profile-pic{
+    height:2em;
+    margin-top: .5em;
+}
+
+.username{
+    
+    padding-top: 1em;
+    font-weight: bold;
+    white-space: nowrap;
+    
+}
+
+.greeting{
+    display:grid;
+    grid-template-columns: .05fr .05fr;
+    padding-left: 5em;
+    white-space: nowrap; 
+    
+}
+.greeting-text{
+    margin-left: 1em;
+    font-weight: bold;
+}
+.greeting-intro{
+    font-size: .8em;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+}
+.buttons{
+    background-color: #2390cf;
+    color:white;
+    border: none;
+    margin-left: 2em;
+    margin-top:1em;
+    height: 2.2em;
+    width: 5em;
+    border-radius: 15px;
+
+
+}
+
+.body{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(226,232,240,255);
+    overflow-y:auto;
+
+
+}
+
+
+
+.body-left{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap:2em;
+    margin-left: 3em;
+
+}
+.body-posts{
+   background-color: white;
+   border-left: 5px solid #fbbf24;
+   padding-top: 1em;
+   padding-left: 1.5em;
+   height:10em;
+   width:17.5em;
+   position: relative;
+   box-shadow: 0 4px 2px -2px gray;
+   border-radius: 15px;
+}
+.top-posts{
+    margin-top: 2em;
+}
+
+.post-text{
+    font-size:.7rem;
+}
+
+.body-right{
+    margin-left: 10em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announcement>h3{
+    margin-top: 1.3em;
+    margin-left: .5em;
+    font-size: 1.1rem ;
+    
+}
+
+
+.announcements-table{
+    background-color: white;
+    height: 14.5em;
+    width: 12.5em;
+    border-radius: 12px;
+    box-shadow: 0 4px 2px -2px gray;
+    
+}
+
+
+.announcement-title{
+    font-weight: bold;
+    font-size: .9em;
+    padding-left: 1em;
+    padding-top: .5em;
+}
+
+.announcement-body{
+    font-size: .8em;
+    padding-left: 1em;
+
+}
+
+hr{
+    width: 11em;
+    margin-left: .5em;
+}
+
+
+.trending-title{
+    margin-top: .5em;
+    margin-left: .5em;
+    font-size: 1.1rem ;
+
+}
+
+.trending-table{
+    background-color: white;
+    height: 14.5em;
+    width: 12.5em;
+    border-radius: 12px;
+    box-shadow: 0 4px 2px -2px gray;
+    
+}
+
+.trending-profile{
+    display: flex;
+    padding-left: 1em;
+    padding-top: 2em;
+    gap:.1em;
+}
+
+.trending-profile>div{
+    margin: .5em;
+}
+
+
+.trending-image{
+    height:2.5em;
+}
+
+.trending-user{
+    font-weight: bold;
+}
+
+.trending-reason{
+    font-size: .5em;
+}
+
+
+.post-icons{
+    display: flex;
+    gap: .4em;
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    
+    
+}
+
+.icon-img{
+    height: .9em;
+}
+
